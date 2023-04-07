@@ -12,5 +12,8 @@ const userSchema = new mongoose.Schema({
   password: {
     type: String,
   },
+  token: {
+    type: String,
+  },
 });
-module.exports=mongoose.model("users",userSchema)
+module.exports = mongoose.model("users", userSchema);
